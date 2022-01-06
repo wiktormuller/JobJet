@@ -1,0 +1,58 @@
+body,
+html,
+#root {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: azure;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background: navy;
+  width: 4vw;
+  height: 100vh;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 96vw;
+  height: 100vh;
+}
+
+.sub-container {
+  display: flex;
+  height: 90vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  /* background: orange; */
+  padding-left: 1%;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  width: 36vw;
+  /* background: green; */
+}
+
+.map {
+  width: 60vw;
+  /* background: grey; */
+}

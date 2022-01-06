@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.header__unregistered-user,
+.header__registered-user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 25vw;
+  text-decoration: none !important;
+  letter-spacing: normal;
+  /* background: red; */
+}
+
+.header__logo {
+  font-family: "Lobster", cursive;
+  font-size: 5em;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+
+.header__btn {
+  background-color: azure;
+  cursor: pointer;
+  width: 35%;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-style: solid;
+  border-radius: 25px;
+  text-align: center;
+  outline: transparent;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
