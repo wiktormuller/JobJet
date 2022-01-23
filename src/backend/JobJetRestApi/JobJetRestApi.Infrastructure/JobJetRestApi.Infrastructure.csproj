@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Persistance\Configurations" />
+      <Folder Include="Persistance\DbContexts" />
+      <Folder Include="Persistance\Migrations" />
+      <Folder Include="Persistance\Seeders" />
+      <Folder Include="Repositories" />
+      <Folder Include="Services" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\JobJetRestApi.Application\JobJetRestApi.Application.csproj" />
+    </ItemGroup>
+
+</Project>

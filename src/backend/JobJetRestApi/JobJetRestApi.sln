@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJetRestApi.Web", "JobJetRestApi.Web\JobJetRestApi.Web.csproj", "{4FBAEC7E-39C9-4964-82FE-AC86DB728BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJetRestApi.Domain", "JobJetRestApi.Domain\JobJetRestApi.Domain.csproj", "{A300D638-027C-4CBA-8999-2388E0A4FA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJetRestApi.Application", "JobJetRestApi.Application\JobJetRestApi.Application.csproj", "{9149DDBB-3CBE-4542-B7D6-726CC3352984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJetRestApi.Infrastructure", "JobJetRestApi.Infrastructure\JobJetRestApi.Infrastructure.csproj", "{56F58215-6F8A-43CD-BB8D-B86C1C401C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBAEC7E-39C9-4964-82FE-AC86DB728BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBAEC7E-39C9-4964-82FE-AC86DB728BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBAEC7E-39C9-4964-82FE-AC86DB728BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBAEC7E-39C9-4964-82FE-AC86DB728BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A300D638-027C-4CBA-8999-2388E0A4FA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A300D638-027C-4CBA-8999-2388E0A4FA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A300D638-027C-4CBA-8999-2388E0A4FA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A300D638-027C-4CBA-8999-2388E0A4FA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9149DDBB-3CBE-4542-B7D6-726CC3352984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9149DDBB-3CBE-4542-B7D6-726CC3352984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9149DDBB-3CBE-4542-B7D6-726CC3352984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9149DDBB-3CBE-4542-B7D6-726CC3352984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F58215-6F8A-43CD-BB8D-B86C1C401C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F58215-6F8A-43CD-BB8D-B86C1C401C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F58215-6F8A-43CD-BB8D-B86C1C401C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F58215-6F8A-43CD-BB8D-B86C1C401C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

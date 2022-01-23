@@ -1,0 +1,8 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background: #007296;
+  min-width: min(2.55vw,2.75vw);
+  max-width: 2.80vw;
+  height: 100vh;
+}
