@@ -91,7 +91,7 @@ export const LandingPage = (props) => {
           jobOffersArray={props.jobOffersArray}
           geoLocation={geoLocation}
           advertLocation={advertLocation}
-        ></Map>
+        />
       </div>
     </div>
   );

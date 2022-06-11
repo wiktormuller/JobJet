@@ -32,8 +32,7 @@ export const RegistrationPanel = (props) => {
   };
 
   return (
-    <div className="panel">
-      <form className="form">
+      <form className="form-register">
         <h2>Zarejestruj się</h2>
         <input
           className="custom-input"
@@ -73,10 +72,9 @@ export const RegistrationPanel = (props) => {
           }}
         ></input>
         <br />
-        <button type="button" onClick={handleClick}>
+        <button type="button-click" onClick={handleClick}>
           Zarejestuj
         </button>
       </form>
-    </div>
   );
 };

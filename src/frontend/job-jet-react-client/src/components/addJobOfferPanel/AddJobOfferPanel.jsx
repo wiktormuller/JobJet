@@ -138,7 +138,6 @@ export const AddJobOfferPanel = (props) => {
   };
 
   return (
-    <div className="panel">
       <form className="form">
         <h2>Dodaj ofertę pracy</h2>
         <input
@@ -152,17 +151,7 @@ export const AddJobOfferPanel = (props) => {
             setName(e.target.value);
           }}
         ></input>
-        <textarea
-          id="description"
-          name="description"
-          rows="5"
-          cols="33"
-          onChange={(e) => {
-            setDescription(e.target.value);
-          }}
-        >
-          Opis
-        </textarea>
+        
         <select
           className="custom-select"
           name="company"
@@ -297,11 +286,21 @@ export const AddJobOfferPanel = (props) => {
           }}
           required
         ></input>
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          cols="33"
+          onChange={(e) => {
+            setDescription(e.target.value);
+          }}
+        >
+          Opis
+        </textarea>
         <br />
-        <button type="button" onClick={handleClick}>
+        <button type="button-click" onClick={handleClick}>
           Opublikuj ofertę
         </button>
       </form>
-    </div>
   );
 };

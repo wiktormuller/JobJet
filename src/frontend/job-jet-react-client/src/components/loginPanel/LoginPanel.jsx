@@ -36,8 +36,7 @@ export const LoginPanel = (props) => {
   };
 
   return (
-    <div className="panel">
-      <form className="form">
+      <form className="form-login">
         <h2>Zaloguj się</h2>
         <input
           className="custom-input"
@@ -65,11 +64,10 @@ export const LoginPanel = (props) => {
         ></input>
         <br />
         <Link className="custom-link" to="/">
-          <button type="button" onClick={handleClick}>
+          <button type="button-click" onClick={handleClick}>
             Zaloguj
           </button>
         </Link>
       </form>
-    </div>
   );
 };
